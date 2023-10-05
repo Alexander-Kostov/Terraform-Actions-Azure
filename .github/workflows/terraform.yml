@@ -1,4 +1,4 @@
-name: 'Terraform Test'
+name: 'Terraform'
 
 on:
   push:
@@ -16,7 +16,7 @@ env:
 
 jobs:
   terraform:
-    name: 'Terraform Test'
+    name: 'Terraform'
     runs-on: ubuntu-latest
     environment: production
 
